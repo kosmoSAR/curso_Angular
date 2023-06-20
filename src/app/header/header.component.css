@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    background-color: bisque;
+    border-bottom: solid 1px black;
+}
+
+.menu{
+    margin: 8px;
+    list-style: none;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header img{
+    padding-top: 1rem;
+    width: 10rem;
+}
