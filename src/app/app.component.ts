@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 interface Tarjeta{
   titulo:string;
   subtitulo:string;
-  nro?:number;
+  image:string;
 }
 
 @Component({
@@ -18,9 +18,9 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.ArregloTarjetas = [
-      {titulo:"video 1",subtitulo: "subtitulo video 1"},
-      {titulo:"video 2",subtitulo: "subtitulo video 2"},
-      {titulo:"video 3",subtitulo: "subtitulo video 3"},
+      {titulo:"video 1",subtitulo: "subtitulo video 1", image: "../assets/cake-chocolate.png"},
+      {titulo:"video 2",subtitulo: "subtitulo video 2", image: "../assets/cake.png"},
+      {titulo:"video 3",subtitulo: "subtitulo video 3", image: "../assets/chocolate-cake-2.jpeg"},
     ]
     
   }
